@@ -12,8 +12,17 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@types/jsdom": "^21.1.7",
     "@types/node": "^22.15.30",
+    "@types/node-fetch": "^2.6.12",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fetch-cookie": "^3.1.0",
+    "jsdom": "^26.1.0",
+    "node-fetch": "^2.7.0",
+    "tough-cookie": "^5.1.2"
   }
 }
